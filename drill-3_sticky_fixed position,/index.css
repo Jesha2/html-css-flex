@@ -1,0 +1,54 @@
+header{
+    position : sticky ;
+    top:0px;
+    padding: 10px;
+    background-color: grey;
+    height: 11vh;
+}
+#blueRectangle{
+    background-color: blue;
+    height : 10vh;
+    width : 10vh;
+}
+p{
+    padding: 40px ;
+}
+.rectangle{
+   
+    height: 25vh;
+}
+#blue{
+    background-color: rgb(0, 166, 255);
+}
+#skyBlue{
+    
+    background-color: rgb(33, 231, 228);
+    
+
+}
+
+#green{
+    background-color: rgb(203, 232, 156);
+}
+#yellow{
+    background-color: rgb(218, 218, 69);
+}
+/* #btn{
+    background-color: brown;
+    height: 124px;
+    width:124px
+} */
+#buttondiv{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+  }
+button{
+  
+    color:white;
+    background-color: black;
+    border-radius: 50%;
+    width: 62px;
+    height:62px;
+    font-size: 30px;
+}

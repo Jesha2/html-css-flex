@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(205, 199, 199);
+    margin:0;
+}
+
+#top{
+    width:100%;
+    height: 20vh;
+    background-color:rgb(69, 65, 65);
+}
+
+#middle{
+    background-color: white;
+    height:70vh;
+    width: 75%;
+    margin : 0 auto;
+  
+}
+footer {
+    width:75%;
+    height: 10vh;
+    /*the height vh all add upto 100 */
+    background-color:rgb(69, 65, 65);
+    margin : 0 auto;
+}

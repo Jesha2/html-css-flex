@@ -1,0 +1,83 @@
+#parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 2px solid black;
+    height: 30vh;
+    margin : 10px;
+    box-sizing: border-box;
+       
+}
+#purple{
+   
+    background-color: blueviolet;
+    height: 15vh;
+    width: 5%;
+    align-self: flex-end;
+    margin : 10px;
+    /* flex-grow: 1; */
+
+}
+#green{
+    margin : 10px;
+    background-color: green;
+    height: 25vh;
+    width: 45%;
+    align-self:flex-end;
+    /* flex-grow: 5; 
+    order:2;*/
+
+}
+#blue{
+    height: 25vh;
+    width:25vh;
+    background-color: cornflowerblue;
+    border-radius: 90%;
+    margin : 10px;
+    align-self:flex-end;
+    /* flex-grow: 3; */
+}
+#random{
+    order:4;
+}
+#parent2{
+    display: flex;
+    margin:10px;
+    border: 4px  dotted black;
+    height: 30vh;
+    padding :20px;
+    box-sizing: content-box;
+    justify-content: center;
+       
+}
+
+#rectangle{
+    /* color:rgb(88, 81, 81);  you can use this for shadow color*/
+    align-self: center;
+    background-color: lightgoldenrodyellow;
+    width: 100%;
+    margin :20px;
+    height: 20vh;
+    box-shadow: 10px 10px 5px  rgb(88, 81, 81);
+    /* flex-grow: 5; */
+}
+
+#parent3{
+    margin:10px auto;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px  solid gray;
+    height: 30vh;
+    width:50%;
+    box-shadow: 3px 3px 5px 0px rgb(200, 194, 194);
+
+    letter-spacing: 5px;
+    color:rgb(14, 14, 197);
+    
+   
+    
+       
+}
